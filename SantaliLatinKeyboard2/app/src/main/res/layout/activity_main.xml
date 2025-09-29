@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_surface"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/headline"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="How to use Santali Latin Keyboard"
+                android:textSize="30sp"
+                android:textColor="@color/material_dynamic_primary30"/>
+
+            <TextView
+                android:id="@+id/heading1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/headline"
+                android:layout_marginTop="10dp"
+                android:text="Go to Phone Settings"
+                android:textSize="25dp"
+                android:textColor="@color/purple_200"/>
+            <ImageView
+                android:id="@+id/screeshot1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/heading1"
+                android:layout_centerInParent="true"
+                android:src="@drawable/screenshot_santali_keyboard_1" />
+
+            <TextView
+                android:id="@+id/heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textColor="@color/purple_200"
+                android:text="Select System"
+                android:layout_below="@+id/screeshot1"/>
+
+            <ImageView
+                android:id="@+id/screenshot2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/screenshot_santali_keyboard_2"
+                android:layout_below="@+id/heading2"/>
+
+            <TextView
+                android:id="@+id/headline3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textColor="@color/purple_200"
+                android:text="Select Keyboard"
+                android:layout_below="@+id/screenshot2"/>
+
+            <ImageView
+                android:id="@+id/screenshot3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/screenshot_santali_keyboard_3"
+                android:layout_below="@id/headline3"/>
+
+            <TextView
+                android:id="@+id/headline4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textColor="@color/purple_200"
+                android:text="Select On-screen keyboard"
+                android:layout_below="@id/screenshot3"/>
+
+            <ImageView
+                android:id="@+id/screenshot4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/screenshot_santali_keyboard_4"
+                android:layout_below="@+id/headline4"/>
+
+            <TextView
+                android:id="@+id/headline5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textColor="@color/purple_200"
+                android:text="turn on Santali (Latin) keyboard"
+                android:layout_below="@+id/screenshot4"/>
+
+            <ImageView
+                android:id="@+id/screenshot5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/screenshot_santali_keyboard_5"
+                android:layout_below="@id/headline5"/>
+
+            <ImageView
+                android:id="@+id/screenshot6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/screenshot_santali_keyboard_6"
+                android:layout_below="@id/screenshot5"/>
+
+            <TextView
+                android:id="@+id/headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:textColor="@color/purple_200"
+                android:text="To use keyboard start typing anywhere.\n To change keyboard tap on dots below keyboard.\n In some phone you can change keyboard swiping the spacebar."
+                android:layout_below="@id/screenshot6"/>
+
+            <ImageView
+                android:id="@+id/screenshot7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/screenshot_santali_keyboard_7"
+                android:layout_below="@+id/headline6"/>
+
+            <TextView
+                android:id="@+id/headline7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                android:text="Developed by -"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/screenshot7"/>
+            <TextView
+                android:id="@+id/headline8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:text="Vijay Soren"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/headline7"
+                android:layout_marginBottom="20dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="25dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="10dp"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                android:layout_below="@+id/headline8"
+                android:layout_centerInParent="true"
+                android:background="@drawable/image"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/image"
+                android:layout_marginBottom="60dp"
+                android:text="X - @vijaysorenx\n insta - @vijaysoren"
+                android:textSize="25sp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
